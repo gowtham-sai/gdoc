@@ -1,7 +1,13 @@
+require 'coveralls'
 require 'simplecov'
 SimpleCov.start do
   add_filter ".local/"
 end
+SimpleCov.start
+
+Coveralls.wear!
+
+
 
 require "bundler/setup"
 require "gdoc"

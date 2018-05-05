@@ -1,4 +1,7 @@
 # Gdoc
+[![Build Status](https://travis-ci.com/gowtham-sai/gdoc.svg?token=n5jvvUkFzpsYs3Nax4Qu&branch=master)](https://travis-ci.com/gowtham-sai/gdoc)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/3b7223093794cabcc7ef/test_coverage)](https://codeclimate.com/github/gowtham-sai/gdoc/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3b7223093794cabcc7ef/maintainability)](https://codeclimate.com/github/gowtham-sai/gdoc/maintainability)
 
 Gdoc - API documentation generated from rspecs.
 
@@ -19,9 +22,9 @@ Or install it yourself as:
     $ gem install gdoc
 
 ## Usage
-You just need to run rspec, gem is cleaver enough to figure it out. 
-Requirements: 
-In your spec file, whenever you want to document a request, just `:api_doc => true` as shown below. 
+You just need to run rspec, gem is cleaver enough to figure it out.
+Requirements:
+In your spec file, whenever you want to document a request, just `:api_doc => true` as shown below.
 	1. You must add `api_doc => true` to spec
 	2. spec must and should have request and response objects.
 
