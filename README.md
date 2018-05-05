@@ -1,5 +1,6 @@
 # Gdoc
 [![Build Status](https://travis-ci.com/gowtham-sai/gdoc.svg?token=n5jvvUkFzpsYs3Nax4Qu&branch=master)](https://travis-ci.com/gowtham-sai/gdoc)
+[![Coverage Status](https://coveralls.io/repos/github/gowtham-sai/gdoc/badge.svg?branch=master)](https://coveralls.io/github/gowtham-sai/gdoc?branch=master)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3b7223093794cabcc7ef/test_coverage)](https://codeclimate.com/github/gowtham-sai/gdoc/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3b7223093794cabcc7ef/maintainability)](https://codeclimate.com/github/gowtham-sai/gdoc/maintainability)
 
