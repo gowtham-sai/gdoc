@@ -1,3 +1,8 @@
+require 'simplecov'
+SimpleCov.start do
+  add_filter ".local/"
+end
+
 require "bundler/setup"
 require "gdoc"
 
