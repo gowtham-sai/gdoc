@@ -2,6 +2,7 @@
 env:
   global:
     - CC_TEST_REPORTER_ID=b483ff31b164a309017d42e3162a3ce85d420975d16623bfbf56989f2d282a5b
+    - repo_token=LnUxl6JZ1bzTE7kdHhxhj66YiQHfbOps3
 sudo: false
 language: ruby
 rvm:
