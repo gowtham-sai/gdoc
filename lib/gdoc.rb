@@ -1,5 +1,9 @@
 require "gdoc/version"
 
 module Gdoc
-  # Your code goes here...
+  attr_accessor :depreciation
+
+  def depreciation
+    @depreciation.nil? ? false : @depreciation
+  end
 end
