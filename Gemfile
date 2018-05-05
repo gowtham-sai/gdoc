@@ -6,7 +6,7 @@ gem 'rake'
 
 group :development, :test do
   gem 'pry'
-  gem 'coveralls', require: false
+  gem 'coveralls', '~> 0.8.21', require: false
   gem 'simplecov', require: false
 end
 
