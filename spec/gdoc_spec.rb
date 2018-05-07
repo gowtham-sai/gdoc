@@ -26,12 +26,23 @@ RSpec.describe Gdoc do
 
   context "required_params" do
     let(:test_class) {
-      class TestClass; include Gdoc; end;
+      class TestClass
+        include Gdoc
+        def set_required_params=(params)
+          @required_params = params
+        end
+      end
       TestClass.new
     }
 
     it "should be empty hash by default" do
       expect(test_class.required_params).to eq({})
+    end
+
+    it "should be able set using instance variable" do
+      params = {required_param_one: 'hello world'}
+      test_class.set_required_params = params
+      expect(test_class.required_params).to be(params)
     end
   end
 end
