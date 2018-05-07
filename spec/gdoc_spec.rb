@@ -23,4 +23,15 @@ RSpec.describe Gdoc do
       expect(test_class.depreciation).to be(false)
     end
   end
+
+  context "required_params" do
+    let(:test_class) {
+      class TestClass; include Gdoc; end;
+      TestClass.new
+    }
+
+    it "should be empty hash by default" do
+      expect(test_class.required_params).to eq({})
+    end
+  end
 end

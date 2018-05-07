@@ -6,4 +6,8 @@ module Gdoc
   def depreciation
     @depreciation.nil? ? false : @depreciation
   end
+
+  def required_params
+    {}
+  end
 end
